@@ -1,0 +1,264 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "SharpHook/5.3.9": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/SharpHook.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/SharpHook.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libuiohook.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libuiohook.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libuiohook.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/maccatalyst-arm64/native/libuiohook.dylib": {
+            "assetType": "native",
+            "rid": "maccatalyst-arm64"
+          },
+          "runtimes/maccatalyst-x64/native/libuiohook.dylib": {
+            "assetType": "native",
+            "rid": "maccatalyst-x64"
+          },
+          "runtimes/osx-arm64/native/libuiohook.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libuiohook.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm64/native/uiohook.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/uiohook.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/uiohook.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "SharpHook.Reactive/5.3.9": {
+        "type": "package",
+        "dependencies": {
+          "SharpHook": "5.3.9",
+          "System.Reactive": "6.0.0"
+        },
+        "compile": {
+          "lib/net9.0/SharpHook.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/SharpHook.Reactive.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Reactive/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SharpHook/5.3.9": {
+      "sha512": "qNcBMHiVZJ3qP+M/MyQZvHdf51UPKpKYUVR2rJ6o6E4dd7G8WJgP8M6J/Qy8aeZ5bt9nC9L5QVKbZFoQirfCXQ==",
+      "type": "package",
+      "path": "sharphook/5.3.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/net462/SharpHook.targets",
+        "icon.png",
+        "lib/net462/SharpHook.dll",
+        "lib/net462/SharpHook.xml",
+        "lib/net6.0/SharpHook.dll",
+        "lib/net6.0/SharpHook.xml",
+        "lib/net7.0/SharpHook.dll",
+        "lib/net7.0/SharpHook.xml",
+        "lib/net8.0/SharpHook.dll",
+        "lib/net8.0/SharpHook.xml",
+        "lib/net9.0/SharpHook.dll",
+        "lib/net9.0/SharpHook.xml",
+        "lib/netstandard2.0/SharpHook.dll",
+        "lib/netstandard2.0/SharpHook.xml",
+        "runtimes/linux-arm/native/libuiohook.so",
+        "runtimes/linux-arm64/native/libuiohook.so",
+        "runtimes/linux-x64/native/libuiohook.so",
+        "runtimes/maccatalyst-arm64/native/libuiohook.dylib",
+        "runtimes/maccatalyst-x64/native/libuiohook.dylib",
+        "runtimes/osx-arm64/native/libuiohook.dylib",
+        "runtimes/osx-x64/native/libuiohook.dylib",
+        "runtimes/win-arm64/native/uiohook.dll",
+        "runtimes/win-x64/native/uiohook.dll",
+        "runtimes/win-x86/native/uiohook.dll",
+        "sharphook.5.3.9.nupkg.sha512",
+        "sharphook.nuspec"
+      ]
+    },
+    "SharpHook.Reactive/5.3.9": {
+      "sha512": "aaNSufYJ9e0PDLdM5uBuWaWZD1/GeAgJQr7zj7zpkdLGEoT0acwoOTkJi397EBUN45waxISkoq7Sh0+EbgPA4Q==",
+      "type": "package",
+      "path": "sharphook.reactive/5.3.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/SharpHook.Reactive.dll",
+        "lib/net462/SharpHook.Reactive.xml",
+        "lib/net6.0/SharpHook.Reactive.dll",
+        "lib/net6.0/SharpHook.Reactive.xml",
+        "lib/net7.0/SharpHook.Reactive.dll",
+        "lib/net7.0/SharpHook.Reactive.xml",
+        "lib/net8.0/SharpHook.Reactive.dll",
+        "lib/net8.0/SharpHook.Reactive.xml",
+        "lib/net9.0/SharpHook.Reactive.dll",
+        "lib/net9.0/SharpHook.Reactive.xml",
+        "lib/netstandard2.0/SharpHook.Reactive.dll",
+        "lib/netstandard2.0/SharpHook.Reactive.xml",
+        "sharphook.reactive.5.3.9.nupkg.sha512",
+        "sharphook.reactive.nuspec"
+      ]
+    },
+    "System.Reactive/6.0.0": {
+      "sha512": "31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "type": "package",
+      "path": "system.reactive/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net6.0-windows10.0.19041/_._",
+        "build/net6.0/_._",
+        "buildTransitive/net6.0-windows10.0.19041/_._",
+        "buildTransitive/net6.0/_._",
+        "icon.png",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net6.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net6.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net6.0/System.Reactive.dll",
+        "lib/net6.0/System.Reactive.xml",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.18362/System.Reactive.dll",
+        "lib/uap10.0.18362/System.Reactive.pri",
+        "lib/uap10.0.18362/System.Reactive.xml",
+        "readme.md",
+        "system.reactive.6.0.0.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "SharpHook >= 5.3.9",
+      "SharpHook.Reactive >= 5.3.9"
+    ]
+  },
+  "packageFolders": {
+    "/home/kaydee/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/kaydee/RiderProjects/Beeper/Beeper/Beeper.csproj",
+      "projectName": "Beeper",
+      "projectPath": "/home/kaydee/RiderProjects/Beeper/Beeper/Beeper.csproj",
+      "packagesPath": "/home/kaydee/.nuget/packages/",
+      "outputPath": "/home/kaydee/RiderProjects/Beeper/Beeper/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/kaydee/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "SharpHook": {
+            "target": "Package",
+            "version": "[5.3.9, )"
+          },
+          "SharpHook.Reactive": {
+            "target": "Package",
+            "version": "[5.3.9, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

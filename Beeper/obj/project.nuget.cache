@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "tyU4d5TyMm8=",
+  "success": true,
+  "projectFilePath": "/home/kaydee/RiderProjects/Beeper/Beeper/Beeper.csproj",
+  "expectedPackageFiles": [
+    "/home/kaydee/.nuget/packages/sharphook/5.3.9/sharphook.5.3.9.nupkg.sha512",
+    "/home/kaydee/.nuget/packages/sharphook.reactive/5.3.9/sharphook.reactive.5.3.9.nupkg.sha512",
+    "/home/kaydee/.nuget/packages/system.reactive/6.0.0/system.reactive.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

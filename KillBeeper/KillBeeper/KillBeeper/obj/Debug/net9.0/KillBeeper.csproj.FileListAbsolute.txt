@@ -1,0 +1,14 @@
+/home/kaydee/RiderProjects/Beeper/KillBeeper/KillBeeper/KillBeeper/bin/Debug/net9.0/KillBeeper
+/home/kaydee/RiderProjects/Beeper/KillBeeper/KillBeeper/KillBeeper/bin/Debug/net9.0/KillBeeper.deps.json
+/home/kaydee/RiderProjects/Beeper/KillBeeper/KillBeeper/KillBeeper/bin/Debug/net9.0/KillBeeper.runtimeconfig.json
+/home/kaydee/RiderProjects/Beeper/KillBeeper/KillBeeper/KillBeeper/bin/Debug/net9.0/KillBeeper.dll
+/home/kaydee/RiderProjects/Beeper/KillBeeper/KillBeeper/KillBeeper/bin/Debug/net9.0/KillBeeper.pdb
+/home/kaydee/RiderProjects/Beeper/KillBeeper/KillBeeper/KillBeeper/obj/Debug/net9.0/KillBeeper.GeneratedMSBuildEditorConfig.editorconfig
+/home/kaydee/RiderProjects/Beeper/KillBeeper/KillBeeper/KillBeeper/obj/Debug/net9.0/KillBeeper.AssemblyInfoInputs.cache
+/home/kaydee/RiderProjects/Beeper/KillBeeper/KillBeeper/KillBeeper/obj/Debug/net9.0/KillBeeper.AssemblyInfo.cs
+/home/kaydee/RiderProjects/Beeper/KillBeeper/KillBeeper/KillBeeper/obj/Debug/net9.0/KillBeeper.csproj.CoreCompileInputs.cache
+/home/kaydee/RiderProjects/Beeper/KillBeeper/KillBeeper/KillBeeper/obj/Debug/net9.0/KillBeeper.dll
+/home/kaydee/RiderProjects/Beeper/KillBeeper/KillBeeper/KillBeeper/obj/Debug/net9.0/refint/KillBeeper.dll
+/home/kaydee/RiderProjects/Beeper/KillBeeper/KillBeeper/KillBeeper/obj/Debug/net9.0/KillBeeper.pdb
+/home/kaydee/RiderProjects/Beeper/KillBeeper/KillBeeper/KillBeeper/obj/Debug/net9.0/KillBeeper.genruntimeconfig.cache
+/home/kaydee/RiderProjects/Beeper/KillBeeper/KillBeeper/KillBeeper/obj/Debug/net9.0/ref/KillBeeper.dll
